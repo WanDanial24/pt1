@@ -113,6 +113,7 @@ ob_start();
                             </a>
                         </td>
                     </tr>
+                    <tr><td colspan="5" class="text-center">No orders found</td></tr>
                 </tbody>
             </table>
         </div>
