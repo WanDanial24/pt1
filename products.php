@@ -57,17 +57,22 @@ ob_start();
                     </select>
                 </div>
 
+                
                 <div class="col-md-3">
-                    <label for="product_condition" class="form-label">Condition <span class="text-danger" aria-hidden="true">*</span></label>
-                    <select name="product_condition" id="product_condition" class="form-select" required>
-                        <option value="">Select Condition</option>
-                        <option value="New">New</option>
-                        <option value="Used">Used</option>
+                    <label for="category" class="form-label">Recipe Category <span class="text-danger" aria-hidden="true">*</span></label>
+                    <select name="product_category" id="category" class="form-select" required>
+                        <option value="">Select Category</option>
+                        <option value="Malaysian Cuisine">Malaysian Cuisine</option>
+                        <option value="Western Cuisine">Western Cuisine</option>
+                        <option value="Desserts and Baking">Desserts and Baking</option>
+                        <option value="Healthy Recipes">Healthy Recipes</option>
+                        <option value="Vegetarian">Vegetarian</option>
                     </select>
                 </div>
 
+                
                 <div class="col-md-3">
-                    <label for="year" class="form-label">Manufacturing Year <span class="text-danger" aria-hidden="true">*</span></label>
+                    <label for="year" class="form-label">Publication Year <span class="text-danger" aria-hidden="true">*</span></label>
                     <select name="product_year" id="year" class="form-select" required>
                         <option value="">Select Year</option>
                         <option value="2020">2020</option>
@@ -79,6 +84,7 @@ ob_start();
                         <option value="2026">2026</option>
                     </select>
                 </div>
+
 
                 <div class="col-md-3">
                     <label for="quantity" class="form-label">Quantity <span class="text-danger" aria-hidden="true">*</span></label>
@@ -153,6 +159,7 @@ ob_start();
                             </a>
                         </td>
                     </tr>
+                    <tr><td colspan="5" class="text-center">No products found</td></tr>
                 </tbody>
             </table>
         </div>
